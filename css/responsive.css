@@ -287,7 +287,8 @@
   }
 
   .hero.video-hero {
-    height: 115vh;
+    height: 100%;
+    width: 100%;
   }
 }
 
