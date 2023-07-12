@@ -292,6 +292,22 @@
   }
 }
 
+
+@media only screen and (max-width: 480px){
+.hero.video-hero .video-container iframe {
+    width: 516%;
+    height: 219%;
+  }
+
+  .hero.video-hero {
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+
+
 @media only screen and (max-width: 480px) {
   header .wrapper .nav-section nav ul {
     justify-content: space-between;
