@@ -50,7 +50,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -506,11 +506,10 @@ header.scrolled .wrapper .nav-section .top-bar {
   -o-object-fit: contain;
      object-fit: contain;
   padding: 0 30px;
-  filter: grayscale(100%) contrast(0.3);
   transition: all 0.3s ease;
 }
 .clients .wrapper .clients-box .client-slider .logo img:hover {
-  filter: grayscale(0%) contrast(1);
+  transform: scale(1.15);
 }
 
 .cta-banner {

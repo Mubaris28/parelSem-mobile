@@ -72,7 +72,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -587,10 +587,10 @@ header {
             margin: 0 auto;
             object-fit: contain;
             padding: 0 30px;
-            filter: grayscale(100%) contrast(0.3);
             @include transitions;
             &:hover {
-              filter: grayscale(0%) contrast(1);
+              transform: scale(1.15);
+
             }
           }
         }
